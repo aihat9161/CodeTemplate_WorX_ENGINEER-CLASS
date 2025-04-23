@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DOM操作</title>
+    </head>
+
+    <body>
+        <h1>DOM操作の練習</h1>
+
+        <dl>
+            <dt>イベント=click / DOMプロパティ=textContent</dt>
+            <dd>
+                <button id="showBtn">クリックして表示</button>
+                <p id="output"></p>
+            </dd>
+            <dt>イベント=input / DOMプロパティ=innerHTML</dt>
+            <dd>
+                <input type="text" id="textEnter">
+                <p id="message"></p>
+            </dd>
+            <dt>イベント=change / DOMプロパティ=checked</dt>
+            <dd><input type="checkbox" id="agree">
+                <p id="status"></p>
+            </dd>
+            <dt>イベント=submit / DOMプロパティ=disabled</dt>
+            <dd>
+                <form action="#" id="myForm">
+                    <input type="text" placeholder="名前を入力" required>
+                    <button id="submitBtn" type="submit">送信</button>
+                </form>
+                <p id="result"></p>
+            </dd>
+            <dt>イベント=mouseover / DOMプロパティ=value</dt>
+            <dd>
+                <input type="text" id="nameInput" value="">
+                <button id="hoverBtn">ここにマウスをのせると名前が入る</button>
+            </dd>
+        </dl>
+        <script src="1_5_dom.js"></script>
+    </body>
+
+</html>
